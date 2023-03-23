@@ -3,7 +3,7 @@
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
       <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">AdminLTE 3</span>
+      <span class="brand-text font-weight-light">Praktikum Week 4</span>
     </a>
 
     <!-- Sidebar -->
@@ -14,7 +14,7 @@
           <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <a href="#" class="d-block">Ghaida Syafa Azizah</a>
         </div>
       </div>
 
@@ -45,19 +45,19 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="../../week1/array_siswa.php" class="nav-link active">
+                <a href="array_siswa.php" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Praktikum Week 1</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="../../week2/tugas/form_belanja.php" class="nav-link">
+                <a href="form_belanja.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Praktikum Week 2</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="../../week3/form_register.php" class="nav-link">
+                <a href="form_register.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Praktikum Week 3</p>
                 </a>
