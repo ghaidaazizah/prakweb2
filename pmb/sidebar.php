@@ -51,7 +51,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="form_belanja.php" class="nav-link">
+                <a href="form_nilai.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Praktikum Week 2</p>
                 </a>
