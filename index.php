@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 include_once 'dbkoneksi.php';
 
 include_once ('models/Jenis_produk.php');
