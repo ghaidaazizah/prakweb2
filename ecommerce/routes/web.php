@@ -1,6 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\InputController;
+use App\Http\Controllers\ForminputController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\ProdukController;
+use App\Http\Controllers\FrontendController;
 
 /*
 |--------------------------------------------------------------------------
@@ -39,4 +44,22 @@ Route::get('/nf', function () {
 
 Route::get('/pemeriksaan', function () {
     return view('pemeriksaan');
+});
+
+Route::get('/input', [InputController::class, 'index']);
+Route::post('/output', [InputController::class, 'output']);
+
+Route::get('/form', [ForminputController::class, 'index']);
+Route::post('/form', [ForminputController::class, 'form']);
+
+// Ini route untuk backend atau admin
+// cara grouping route = Route::profix('admin')->group(function)
+Route::prefix('admin')->group(function () {
+    Route::get('/dashboard', [DashboardController::class, 'index']);
+    Route::get('/produk', [ProdukController::class, 'index']);
+});
+
+// ini route untuk frontend atau user
+Route::prefix('user')->group(function () {
+    Route::get('/dashboard', [FrontendController::class, 'index']);
 });
