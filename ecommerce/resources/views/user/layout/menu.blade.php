@@ -40,6 +40,9 @@
               Karena kami berani jamin kualitas bahan dan barang kami 100% terbaik,
               Ditunggu pesanannya!
             </p>
+            <p>Data Diri:
+              Ghaida Syafa Azizah, SI01.
+            </p>
             <a href="#services" class="btn-learn-more">Layanan</a>
           </div>
         </div>

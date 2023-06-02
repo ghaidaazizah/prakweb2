@@ -6,6 +6,7 @@ use App\Http\Controllers\ForminputController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ProdukController;
 use App\Http\Controllers\FrontendController;
+use App\Http\Controllers\AboutController;
 
 /*
 |--------------------------------------------------------------------------
@@ -62,4 +63,5 @@ Route::prefix('admin')->group(function () {
 // ini route untuk frontend atau user
 Route::prefix('user')->group(function () {
     Route::get('/dashboard', [FrontendController::class, 'index']);
+    Route::get('/about', [AboutController::class, 'index']);
 });
